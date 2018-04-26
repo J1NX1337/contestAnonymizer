@@ -1,0 +1,15 @@
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csprojResolveAssemblyReference.cache
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\MainWindow.g.cs
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\App.g.cs
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer_MarkupCompile.cache
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer_MarkupCompile.lref
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.exe.config
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.exe
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.pdb
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\MainWindow.baml
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.g.resources
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.Properties.Resources.resources
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csproj.GenerateResource.cache
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csproj.CoreCompileInputs.cache
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.exe
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.pdb
