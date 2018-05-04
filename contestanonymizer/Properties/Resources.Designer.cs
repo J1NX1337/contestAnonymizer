@@ -61,72 +61,65 @@ namespace contestanonymizer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to abandoned
-        ///able
-        ///absolute
-        ///adorable
-        ///adventurous
-        ///academic
-        ///acceptable
-        ///acclaimed
-        ///accomplished
-        ///accurate
-        ///aching
-        ///acidic
-        ///acrobatic
-        ///active
-        ///actual
-        ///adept
-        ///admirable
-        ///admired
-        ///adolescent
-        ///adored
-        ///advanced
-        ///afraid
-        ///affectionate
-        ///aged
-        ///aggravating
-        ///aggressive
-        ///agile
-        ///agitated
-        ///agonizing
-        ///agreeable
-        ///ajar
-        ///alarmed
-        ///alarming
-        ///alert
-        ///alienated
-        ///alive
-        ///all
-        ///altruistic
-        ///amazing
-        ///ambitious
-        ///ample
-        ///amused
-        ///amusing
-        ///anchored
-        ///ancient
-        ///angelic
-        ///angry
-        ///anguished
-        ///animated
-        ///annual
-        ///another
-        ///antique
-        ///anxious
-        ///any
-        ///apprehensive
-        ///appropriate
-        ///apt
-        ///arctic
-        ///arid
-        ///aromatic
-        ///artistic
-        ///a [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Abandoned
+        ///Able
+        ///Absolute
+        ///Adorable
+        ///Adventurous
+        ///Academic
+        ///Acceptable
+        ///Acclaimed
+        ///Accomplished
+        ///Accurate
+        ///Aching
+        ///Acidic
+        ///Acrobatic
+        ///Active
+        ///Actual
+        ///Adept
+        ///Admirable
+        ///Admired
+        ///Adolescent
+        ///Adored
+        ///Advanced
+        ///Afraid
+        ///Affectionate
+        ///Aged
+        ///Aggravating
+        ///Aggressive
+        ///Agile
+        ///Agitated
+        ///Agonizing
+        ///Agreeable
+        ///Ajar
+        ///Alarmed
+        ///Alarming
+        ///Alert
+        ///Alienated
+        ///Alive
+        ///All
+        ///Altruistic
+        ///Amazing
+        ///Ambitious
+        ///Ample
+        ///Amused
+        ///Amusing
+        ///Anchored
+        ///Ancient
+        ///Angelic
+        ///Angry
+        ///Anguished
+        ///Animated
+        ///Annual
+        ///Another
+        ///Antique
+        ///Anxious
+        ///Any
+        ///Appreh [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string adjectives {
+        internal static string _default {
             get {
-                return ResourceManager.GetString("adjectives", resourceCulture);
+                return ResourceManager.GetString("_default", resourceCulture);
             }
         }
         
@@ -190,8 +183,7 @@ namespace contestanonymizer.Properties {
         ///Wren
         ///Wood-pewee
         ///Flycatcher
-        ///Phoebe
-        ///Vireo.
+        ///Pho [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string birds {
             get {
@@ -200,60 +192,55 @@ namespace contestanonymizer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to accepting
-        ///accommodating
-        ///afraid
-        ///aggressive
-        ///agitated
-        ///alarmed
-        ///amazed
-        ///amused
-        ///antagonistic
-        ///anxious
-        ///apathetic
-        ///apprehensive
-        ///arrogant
-        ///astonished
-        ///astounded
-        ///attentive
-        ///blase
-        ///bold
-        ///bothered
-        ///brave
-        ///calm
-        ///capable
-        ///casual
-        ///charming
-        ///cheerful
-        ///cheery
-        ///churlish
-        ///collected
-        ///comfortable
-        ///competitive
-        ///composed
-        ///compulsive
-        ///concerned
-        ///confident
-        ///conflicted
-        ///conscientious
-        ///conservative
-        ///considerate
-        ///conspicuous
-        ///contemptible
-        ///content
-        ///convivial
-        ///cool
-        ///courageous
-        ///covetous
-        ///creative
-        ///critical
-        ///curious
-        ///cynical
-        ///dazzled
-        ///debilitated
-        ///defensive
-        ///dejected
-        ///delighted
+        ///   Looks up a localized string similar to Accepting
+        ///Accommodating
+        ///Afraid
+        ///Aggressive
+        ///Agitated
+        ///Alarmed
+        ///Amazed
+        ///Amused
+        ///Antagonistic
+        ///Anxious
+        ///Apathetic
+        ///Apprehensive
+        ///Arrogant
+        ///Astonished
+        ///Astounded
+        ///Attentive
+        ///Blase
+        ///Bold
+        ///Bothered
+        ///Brave
+        ///Calm
+        ///Capable
+        ///Casual
+        ///Charming
+        ///Cheerful
+        ///Cheery
+        ///Churlish
+        ///Collected
+        ///Comfortable
+        ///Competitive
+        ///Composed
+        ///Compulsive
+        ///Concerned
+        ///Confident
+        ///Conflicted
+        ///Conscientious
+        ///Conservative
+        ///Considerate
+        ///Conspicuous
+        ///Contemptible
+        ///Content
+        ///Convivial
+        ///Cool
+        ///Courageous
+        ///Covetous
+        ///Creative
+        ///Critical
+        ///Curious
+        ///Cynical
         /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string emotions {

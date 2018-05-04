@@ -13,3 +13,37 @@ C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contes
 C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csproj.CoreCompileInputs.cache
 C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.exe
 C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.pdb
+D:\k8948\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.exe.config
+D:\k8948\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.exe
+D:\k8948\contestanonymizer\contestanonymizer\bin\Debug\contestanonymizer.pdb
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csprojResolveAssemblyReference.cache
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\MainWindow.g.cs
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\App.g.cs
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer_MarkupCompile.cache
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer_MarkupCompile.lref
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\MainWindow.baml
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.g.resources
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.Properties.Resources.resources
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.csproj.GenerateResource.Cache
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.exe
+D:\k8948\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer.pdb
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\obj\Debug\contestanonymizer_Content.g.cs
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Nouns\birds.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\ReadMe.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Nouns\lizards.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Nouns\mammals.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Nouns\reptiles.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Adjectives\default.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Adjectives\emotions.txt
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\chaos.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\gottagof4st.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\maffe.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\meep.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\mking.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\mordred.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\rainfall.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\rhonen.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\shanipika.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\shikinotsu.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\uberzolik.osu
+C:\Users\Jinxy\source\repos\contestanonymizer\contestanonymizer\bin\Debug\Test Files\wanko.osu

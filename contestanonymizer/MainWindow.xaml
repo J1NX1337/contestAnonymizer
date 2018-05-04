@@ -5,14 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:contestanonymizer"
         mc:Ignorable="d"
-        Title="osu! Contest Entry Anonymizer (v.1.0)" Height="450" Width="800" ResizeMode="NoResize" Initialized="Window_Initialized">
+        Title="osu! Metadata Anonymizer (v.1.0)" Height="450" Width="800" ResizeMode="CanMinimize" Initialized="Window_Initialized">
     <Grid>
         <Button x:Name="addButton" Content="+ Add" HorizontalAlignment="Left" Margin="144,378,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="beatmapButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="#FF15DA27"/>
-                    <GradientStop Color="#FF0DA81B" Offset="0.547"/>
-                    <GradientStop Color="#FF2ABB37" Offset="0.435"/>
+                    <GradientStop Color="#FF0DA81B" Offset="0.5"/>
                     <GradientStop Color="#FF58835B" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
@@ -22,7 +21,6 @@
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF70606" Offset="0"/>
                     <GradientStop Color="#FFD42121" Offset="0.5"/>
-                    <GradientStop Color="#FFD11B1B" Offset="0.504"/>
                     <GradientStop Color="#FFB81111" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
@@ -32,20 +30,23 @@
 
         <GroupBox x:Name="discrepencyBox" Header="Discrepancies" HorizontalAlignment="Left" Height="192" Margin="520,25,0,0" VerticalAlignment="Top" Width="245"/>
         <StackPanel HorizontalAlignment="Left" Height="168" Margin="520,49,0,0" VerticalAlignment="Top" Width="245">
-            <TextBox x:Name="titleBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Title" BorderThickness="0"/>
-            <TextBox x:Name="titleUnicodeBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="TitleUnicode" BorderThickness="0"/>
-            <TextBox x:Name="artistBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Artist" BorderThickness="0"/>
-            <TextBox x:Name="artistUnicodeBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="ArtistUnicode" BorderThickness="0"/>
-            <TextBox x:Name="creatorBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Creator" BorderThickness="0"/>
-            <TextBox x:Name="versionBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Version" BorderThickness="0"/>
-            <TextBox x:Name="sourceBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Source" BorderThickness="0"/>
-            <TextBox x:Name="tagsBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Tags" BorderThickness="0"/>
+            <TextBox x:Name="titleBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Title" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="titleUnicodeBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="TitleUnicode" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="artistBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Artist" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="artistUnicodeBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="ArtistUnicode" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="creatorBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Creator" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="versionBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Version" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="sourceBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Source" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
+            <TextBox x:Name="tagsBox" TextWrapping="Wrap" Margin="10,0" Height="20" FontSize="14" Text="Tags" BorderThickness="0" IsReadOnly="True" IsHitTestVisible="False"/>
         </StackPanel>
         <Button x:Name="anonButton" Content="Anonymize Metadata" HorizontalAlignment="Left" Margin="563,368,0,0" VerticalAlignment="Top" Width="145" Height="32" FontSize="14" Click="anonButton_Click"/>
         <ComboBox x:Name="nounBox" HorizontalAlignment="Left" Margin="525,322,0,0" VerticalAlignment="Top" Width="154"/>
         <Label Content="Nouns" HorizontalAlignment="Left" Margin="520,291,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="extraNounsButton" Content="..." HorizontalAlignment="Left" Margin="684,322,0,0" VerticalAlignment="Top" Width="24"/>
-        <DataGrid x:Name="mapGrid" HorizontalAlignment="Left" Height="305" Margin="46,49,0,0" VerticalAlignment="Top" Width="421" FontFamily="Arial Unicode MS"/>
+        <Button x:Name="extraNounsButton" Tag="Nouns" Content="..." HorizontalAlignment="Left" Margin="684,322,0,0" VerticalAlignment="Top" Width="24" Click="extraWordsButton_Click"/>
+        <DataGrid x:Name="mapGrid" HorizontalAlignment="Left" Height="305" Margin="46,49,0,0" VerticalAlignment="Top" Width="421" FontFamily="Arial Unicode MS" Loaded="mapGrid_Loaded"/>
+        <Label Content="Adjectives" HorizontalAlignment="Left" Margin="520,232,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="adjBox" HorizontalAlignment="Left" Margin="525,263,0,0" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name="extraAdjButton" Tag="Adjectives" Content="..." HorizontalAlignment="Left" Margin="684,263,0,0" VerticalAlignment="Top" Width="24" Click="extraWordsButton_Click"/>
 
     </Grid>
 </Window>

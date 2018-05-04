@@ -9,7 +9,7 @@ namespace contestanonymizer
 {
     public class BeatmapData : ObservableCollection<Beatmap>
     {
-        public BeatmapData()
+        public BeatmapData() //literally just an observable collection for beatmaps, for data binding purposes
         {
 
         }
