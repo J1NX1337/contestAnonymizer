@@ -25,6 +25,7 @@ namespace contestanonymizer
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string defaultBMDirectory;
         private Brush empty;
         private Brush match;
         private Brush mismatch;
@@ -34,7 +35,8 @@ namespace contestanonymizer
         {
             InitializeComponent();
             BeatmapParser.BeatmapList = new BeatmapData();
-            mapGrid.ItemsSource = BeatmapParser.BeatmapList;           
+            mapGrid.ItemsSource = BeatmapParser.BeatmapList;
+            defaultBMDirectory = Directory.GetCurrentDirectory() + "\\Test Files";
         }
 
         private void Window_Initialized(object sender, EventArgs e)
@@ -70,7 +72,8 @@ namespace contestanonymizer
             {
                 OpenFileDialog openFileDialog = new OpenFileDialog();
                 openFileDialog.Multiselect = true;
-                openFileDialog.InitialDirectory = Directory.GetCurrentDirectory() + "\\Test Files";
+                if (Directory.Exists(defaultBMDirectory))
+                    openFileDialog.InitialDirectory = defaultBMDirectory;
                 openFileDialog.Filter = ".osu files (*.osu)|*.osu|All files (*.*)|*.*";
                 if (openFileDialog.ShowDialog() == true)
                 {
