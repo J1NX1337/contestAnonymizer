@@ -1,4 +1,5 @@
 ﻿osu! Metadata Anonymizer v. 1.0 - by user J1NX1337
+Github repository https://github.com/J1NX1337/contestanonymizer
 Default noun and adjective text data copied from https://github.com/nekodex/namegen
 
 How To Use
