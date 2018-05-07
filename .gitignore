@@ -2,4 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/contestanonymizer/v15/Server/sqlite3
+/.vs/
+/packages/
+/contestanonymizer/bin
+/contestanonymizer/obj
+/contestanonymizerUnitTest/bin
+/contestanonymizerUnitTest/obj
